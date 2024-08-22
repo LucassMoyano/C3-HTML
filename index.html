@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
    <head>
+      <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="style.css">
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Mi Primer Sitio Web</title>
    </head>
    <body>
       <header>
-
-         <h1>Esta es la homework de htpl </h1>
-         <span>HOME</span>
-         <span>NOTICIAS</span>
-         <span>ESPECIES</span>
-
+         <div id="principal">
+            <h1>Esta es la homework de htpl </h1>
+         </div>
+         
+         <div class="home">
+            <span>HOME</span>
+            <span>NOTICIAS</span>
+            <span>ESPECIES</span>
+         </div>
       </header>
 
       <main>
-
-         <img src="cangrejo.jpeg" />
-
+         <div class="cards">
+            <img src="cangrejo.jpeg" />
+         </div>
          <section>
 
             <article>
                <div>
-                  <h2>Aqui hablaremos sobre las principales caracteristicas de los cangrejos</h2>
+                  <h2 class="title">Aqui hablaremos sobre las principales caracteristicas de los cangrejos</h2>
                   
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius nobis quos saepe obcaecati perferendis, commodi natus maiores earum culpa qui necessitatibus, hic facilis, quo tempora maxime? Nemo, sed vero!</p>
+                  <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius nobis quos saepe obcaecati perferendis, commodi natus maiores earum culpa qui necessitatibus, hic facilis, quo tempora maxime? Nemo, sed vero!</p>
                   
             <hr />
                </div>
@@ -36,7 +41,7 @@
                <div>
                   <h3>Hay varias especies de cangrejos, a continuacion enumeraremos algunas de ellas</h3>
 
-                  <ul>
+                  <ul id="carac">
                      <li>Caracterista A</li>
                      <li>Caracteristica B</li>
                      <li>Caracteristica C</li>

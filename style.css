@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0a0e5;
+    color: #ec2828;
+    margin: 20px;
+}
+
+.title{
+  font-size: 25px;
+  color: black;
+  margin-top: 1em;
+  margin-left: 10px;
+  margin-bottom: 1em;
+}
+
+h3{
+  font-size: 30px;
+  color: #ec2828;
+}
+
+h1{
+  font-size: 50px;
+  color: blue;
+}
+
+.cards{
+  border: solid black;
+  width: fit-content;
+  padding: 1em 1em 1em 1em;
+  border-radius: 15px;
+}
+
+.home{
+  font-size: 35px;
+  margin-left: 1em;
+  margin-bottom: 2em;
+}
+
+#carac{
+  font-size: 20px;
+  color: black;
+  margin-top: 1em;
+  margin-left: 10px;
+  margin-bottom: 2em;
+}
+
+#principal{
+  border: 2px solid black;
+  width: 50vw;
+  margin: auto;
+  padding: 1em;
+  border-radius: 5px;
+  margin-bottom: 2em;
+
+
+}
